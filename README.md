@@ -10,11 +10,9 @@
   <img width="1280" height="599" alt="Interface Principal do SafeBox" src="https://github.com/user-attachments/assets/09e5e54b-4e94-418f-84c9-4c1da4fad2f1" />
 </div>
 
-> **Pare de pagar para vender nos Marketplaces.** O primeiro precificador inteligente que protege sua solvência. Vença a *Buy Box* quando for lucrativo, trave seu preço automaticamente quando não for.
-
 ---
 
-## 🎯 Sobre o Projeto
+## Sobre o Projeto
 
 O mercado de e-commerce e marketplaces (como o Mercado Livre) vive uma "tempestade perfeita" para os vendedores. Com algoritmos predatórios, concorrência desleal (muitas vezes com players asiáticos subsidiados) e custos ocultos (taxas de plataforma, antecipação, impostos), muitos varejistas estão **vendendo muito, mas lucrando pouco** ou até tendo prejuízo para ganhar a *Buy Box*.
 
@@ -28,7 +26,7 @@ O **SafeBox** nasce para resolver essa dor. Ele é uma aplicação web focada na
 
 ---
 
-## 🖥️ Funcionalidades e Telas do Sistema
+## Funcionalidades e Telas do Sistema
 
 O motor matemático do SafeBox (`SafeBoxEngine`) analisa os dados e retorna o status da operação categorizado em três níveis de risco.
 
@@ -49,7 +47,7 @@ Quando a guerra de preços ultrapassa o seu custo total (produto + impostos + ta
 
 ---
 
-## ⚙️ Como a Tecnologia Funciona
+## Como a Tecnologia Funciona
 
 O projeto utiliza uma arquitetura simples e eficiente baseada em Python:
 
