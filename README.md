@@ -33,7 +33,7 @@ O motor matemático do SafeBox (`SafeBoxEngine`) analisa os dados e retorna o st
 ### 🟢 Nível SAFE: Venda Segura
 Quando o preço praticado no mercado possui uma margem superior ao seu Preço Mínimo Viável. O sistema recomenda a competição.
 
-<img width="1280" height="626" alt="Dashboard - Alerta para Investir" src="https://github.com/user-attachments/assets/138460b6-3b17-4126-a1fd-7aeec747b634" />
+<img width="1472" height="888" alt="Dashboard - Alerta para Investir" src="https://github.com/user-attachments/assets/138460b6-3b17-4126-a1fd-7aeec747b634" />
 
 ### 🟡 Nível WARNING: Alerta de Margem
 Quando o preço da *Buy Box* está muito próximo do seu mínimo viável (margem de folga < 5%). O sistema sugere monitoramento diário.
@@ -43,7 +43,7 @@ Quando o preço da *Buy Box* está muito próximo do seu mínimo viável (margem
 ### 🔴 Nível DANGER: Risco de Prejuízo
 Quando a guerra de preços ultrapassa o seu custo total (produto + impostos + taxas + financeiro). O sistema bloqueia a ação, recomendando "Não Vender / Pausar", impedindo que o vendedor pague para trabalhar.
 
-<img width="1280" height="626" alt="Dashboard SafeBox - Risco de Prejuízo" src="https://github.com/user-attachments/assets/be100029-b89d-4a5f-a552-137fbf1c38f1" />
+<img width="1472" height="888" alt="Dashboard SafeBox - Risco de Prejuízo" src="https://github.com/user-attachments/assets/be100029-b89d-4a5f-a552-137fbf1c38f1" />
 
 ---
 
