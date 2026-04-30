@@ -60,7 +60,7 @@ O projeto utiliza uma arquitetura simples e eficiente baseada em Python:
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 * **Backend:** Python 3.x, Flask, Requests, Regex (`re`)
 * **Frontend:** HTML5, CSS3, JavaScript (Fetch API)
@@ -68,10 +68,21 @@ O projeto utiliza uma arquitetura simples e eficiente baseada em Python:
 
 ---
 
-## 🚀 Como rodar o projeto localmente
+## Como rodar o projeto localmente
 
-Siga os passos abaixo para testar o SafeBox em sua máquina:
+Para executar o SafeBox em sua máquina, você precisará ter o [Python](https://www.python.org/downloads/) instalado e uma conta no Mercado Livre para gerar o Token de acesso à API.
 
-**1. Clone este repositório:**
+### Como obter o Token da API do Mercado Livre
+A aplicação precisa de uma chave de acesso para consultar os dados dos produtos oficialmente pelo Mercado Livre.
+
+1. Acesse o portal de desenvolvedores: [Mercado Livre Developers](https://developers.mercadolivre.com.br/devcenter).
+2. Faça login com a sua conta do Mercado Livre.
+3. Clique em **"Criar Aplicação"**.
+4. Preencha os dados básicos (Nome, Nome curto e Descrição).
+5. Em **URI de redirect**, você pode colocar `https://localhost` (como é um ambiente de teste, qualquer URL válida funciona).
+6. Nos escopos, marque a opção para **"Ler"** (Read) dados da API.
+7. Após criar a aplicação, você verá as credenciais. Copie o **Access Token** (Ele geralmente começa com `APP_USR-...`).
+
+**Clone este repositório:**
 ```bash
 git clone [https://github.com/SEU_USUARIO/safebox.git](https://github.com/SEU_USUARIO/safebox.git)
