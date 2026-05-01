@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SafeBox | Inteligência de Solvência para Varejo</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="container nav-container">
+            <div class="logo">
+                <img src="{{ url_for('static', filename='images/logo-safebox.png') }}" alt="SafeBox Logo">
+                <span>SafeBox</span>
+            </div>
+            <nav class="nav-links">
+                <a href="#monitor">Monitor de Risco</a>
+                <a href="#solucao">Metodologia</a>
+                <a href="#tecnologia">Tecnologia</a>
+            </nav>
+        </div>
+    </header>
+
+    <section id="hero" class="hero-section">
+        <div class="container hero-content">
+            <div class="hero-text">
+                <h1>Sua empresa está crescendo ou apenas inchando?</h1>
+                <p class="hero-subtitle">
+                    No varejo atual, faturamento é vaidade, lucro é sanidade. O <strong>SafeBox</strong> é a única ferramenta que blinda sua operação contra o fenômeno do <em>"Crescimento sem Lucro"</em>, garantindo que você nunca vença uma Buy Box no <strong>Mercado Livre</strong> para perder dinheiro.
+                </p>
+            </div>
+            <div class="hero-image">
+                <img src="{{ url_for('static', filename='images/logo-safebox.png') }}" alt="Ilustração SafeBox" class="hero-illustration">
+            </div>
+        </div>
+    </section>
+
+    <section id="problema" class="section-padding bg-light">
+        <div class="container">
+            <h2 class="section-title text-center">Por que vender está quebrando empresas?</h2>
+            <p class="section-lead text-center">O cenário de 2024-2025 apresenta uma "Tempestade Perfeita" para o varejo. Identificamos os 3 drenos silenciosos de capital.</p>
+            
+            <div class="grid-3">
+                <div class="card">
+                    <h3>1. Asfixia Financeira (28%)</h3>
+                    <p>Dados do setor mostram que despesas financeiras e antecipações consomem até <strong>28% do Valor Adicionado</strong> das empresas. Se você não coloca isso no preço, você paga para trabalhar.</p>
+                </div>
+                <div class="card">
+                    <h3>2. A "Armadilha" da Buy Box</h3>
+                    <p>Os algoritmos priorizam o menor preço, forçando uma "corrida para o fundo". Vencer a Buy Box com margem negativa gera volume, mas destrói sua solvência a longo prazo.</p>
+                </div>
+                <div class="card">
+                    <h3>3. Disrupção Global</h3>
+                    <p>Competir por preço com plataformas asiáticas subsidiadas é inviável. O SafeBox identifica quando a batalha de preços é perdida e protege seu estoque.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="tecnologia" class="section-padding bg-dark text-white">
+        <div class="container">
+            <h2 class="section-title text-center text-white">Gestão Profissional Radical</h2>
+            <p class="section-lead text-center text-light">Não é apenas uma calculadora. É um sistema de defesa patrimonial.</p>
+            
+            <div class="grid-3 margin-top-large">
+                <div class="feature-block">
+                    <div class="feature-icon">🛡️</div>
+                    <div class="feature-text">
+                        <h3>Cálculo de "Markup Divisor"</h3>
+                        <p>Abandonamos a conta de padaria. Utilizamos o método de Divisor para garantir que as taxas incidam sobre o preço final de venda, e não sobre o custo.</p>
+                    </div>
+                </div>
+                <div class="feature-block">
+                    <div class="feature-icon">🛑</div>
+                    <div class="feature-text">
+                        <h3>Stop-Loss Automático</h3>
+                        <p>Assim como na bolsa de valores, o SafeBox define um limite matemático. Abaixo dele, a venda é tóxica e deve ser evitada para preservar o caixa.</p>
+                    </div>
+                </div>
+                <div class="feature-block">
+                    <div class="feature-icon">👁️</div>
+                    <div class="feature-text">
+                        <h3>Visibilidade do Custo Oculto</h3>
+                        <p>Obrigamos a inserção do Custo Financeiro no cálculo. Isso revela a "Inércia Financeira" onde a empresa vende apenas para pagar juros.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="solucao" class="section-padding bg-light">
+        <div class="container">
+            <h2 class="section-title text-center">Metodologia SafeBox</h2>
+            <div class="grid-3 margin-top-large">
+                <div class="card step-card">
+                    <div class="step-badge">1</div>
+                    <h3>Input de Realidade</h3>
+                    <p>Você insere custos que a maioria ignora: Impostos reais, taxas de ads e o custo do dinheiro no tempo.</p>
+                </div>
+                <div class="card step-card">
+                    <div class="step-badge">2</div>
+                    <h3>Verificação de Mercado</h3>
+                    <p>Nossa API conecta-se exclusivamente ao <strong>Mercado Livre</strong> para validar o item e confirmar a identidade do produto.</p>
+                </div>
+                <div class="card step-card highlight-card">
+                    <div class="step-badge badge-orange">3</div>
+                    <h3>Veredito de Solvência</h3>
+                    <p>O sistema emite um alerta binário: <strong>Competir</strong> (Gera Caixa) ou <strong>Recuar</strong> (Evita Prejuízo).</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="monitor" class="section-padding">
+        <div class="container">
+            <h2 class="section-title text-center">Diagnóstico de Viabilidade em Tempo Real</h2>
+            <p class="section-lead text-center">
+                Cruze seus custos ocultos com a realidade do <strong>Mercado Livre</strong>. Descubra instantaneamente se o preço do concorrente é uma oportunidade ou uma armadilha.
+            </p>
+
+            <div class="monitor-interface">
+                <div class="control-panel">
+                    
+                    <div class="form-group full-width">
+                        <label>ID do Produto (Somente Mercado Livre)</label>
+                        <input type="text" id="prod_id" placeholder="Cole o link ou código (Ex: MLB...)">
+                    </div>
+
+                    <div class="form-group full-width highlight-input">
+                        <label>Preço da Buy Box / Concorrente (R$)</label>
+                        <input type="number" id="preco_concorrente" placeholder="Valor praticado no anúncio" step="0.01">
+                    </div>
+                    
+                    <div class="grid-2-small">
+                        <div class="form-group">
+                            <label>Custo da Mercadoria (CMV)</label>
+                            <input type="number" id="custo_base" placeholder="Produto + Embalagem">
+                        </div>
+                        <div class="form-group">
+                            <label>Margem Líquida Alvo (%)</label>
+                            <input type="number" id="margem_min" value="10">
+                        </div>
+                    </div>
+
+                    <div class="grid-3-mini">
+                        <div class="form-group">
+                            <label>Imposto Real (%)</label>
+                            <input type="number" id="taxa_imp" value="10" title="Considere sua alíquota efetiva">
+                        </div>
+                        <div class="form-group">
+                            <label>Mktplace + Ads (%)</label>
+                            <input type="number" id="taxa_com" value="18" title="Comissão + Taxa de Publicidade">
+                        </div>
+                        <div class="form-group">
+                            <label>Custo Financeiro (%)</label>
+                            <input type="number" id="taxa_fin" value="28" title="Antecipação + Custo do Capital">
+                        </div>
+                    </div>
+
+                    <button onclick="analisarRisco()" class="btn btn-primary btn-block">
+                        <span class="icon">🛡️</span> Rodar Diagnóstico de Solvência
+                    </button>
+                </div>
+
+                <div class="alert-panel" id="painel-resultado" style="display:none;">
+                    <div class="alert-header">
+                        <h4 id="alert-title">RESULTADO</h4>
+                        <div class="status-indicator" id="status-icon"></div>
+                    </div>
+                    
+                    <div class="alert-body">
+                        <div class="product-preview">
+                            <img id="img-produto" src="" alt="Produto" class="prod-img">
+                            <div class="prod-info">
+                                <h5 id="nome-produto">---</h5>
+                            </div>
+                        </div>
+                        
+                        <hr style="opacity: 0.1; margin: 15px 0;">
+
+                        <p class="security-msg" id="msg-seguranca">---</p>
+                        
+                        <div class="data-comparison">
+                            <div class="data-box competitor">
+                                <span>Preço de Mercado</span>
+                                <strong id="val-buybox">R$ 0,00</strong>
+                            </div>
+                            <div class="vs-divider">VS</div>
+                            <div class="data-box user">
+                                <span>Seu Ponto de Ruptura</span>
+                                <strong id="val-minimo">R$ 0,00</strong>
+                            </div>
+                        </div>
+
+                        <div class="profit-box" id="box-lucro">
+                            <span>Lucro Líquido Projetado:</span>
+                            <strong id="val-lucro">R$ 0,00</strong>
+                        </div>
+
+                        <div class="action-box" id="box-acao">
+                            <span>AÇÃO ESTRATÉGICA:</span>
+                            <strong id="texto-acao">---</strong>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container footer-content">
+            <div class="logo"><span>SafeBox</span></div>
+            <p>© 2025 SafeBox Tecnologia. Inteligência para Varejo.</p>
+        </div>
+    </footer>
+
+    <script>
+        async function analisarRisco() {
+            const btn = document.querySelector('.btn-primary');
+            const painel = document.getElementById('painel-resultado');
+            
+            const precoConcorrente = document.getElementById('preco_concorrente').value;
+            if(!precoConcorrente) {
+                alert("Por favor, informe o preço do concorrente.");
+                return;
+            }
+
+            btn.innerHTML = "Processando Dados...";
+            btn.disabled = true;
+            painel.style.display = 'none';
+
+            const payload = {
+                produto_id: document.getElementById('prod_id').value,
+                preco_concorrente: precoConcorrente,
+                custo: document.getElementById('custo_base').value,
+                margem: document.getElementById('margem_min').value,
+                imposto: document.getElementById('taxa_imp').value,
+                taxa_plat: document.getElementById('taxa_com').value,
+                financeiro: document.getElementById('taxa_fin').value
+            };
+
+            try {
+                const response = await fetch('/api/analisar-produto', {
+                    method: 'POST',
+                    headers: {'Content-Type': 'application/json'},
+                    body: JSON.stringify(payload)
+                });
+                const data = await response.json();
+
+                if(data.status === 'erro') {
+                    alert("Erro: " + data.msg);
+                } else {
+                    renderizarResultado(data);
+                }
+
+            } catch (e) {
+                console.error(e);
+                alert("Erro de conexão.");
+            } finally {
+                btn.innerHTML = "<span class='icon'>🛡️</span> Rodar Diagnóstico de Solvência";
+                btn.disabled = false;
+            }
+        }
+
+        function renderizarResultado(data) {
+            const painel = document.getElementById('painel-resultado');
+            const titulo = document.getElementById('alert-title');
+            
+            painel.style.display = 'block';
+            painel.className = 'alert-panel alert-' + data.nivel.toLowerCase();
+
+            titulo.innerText = data.nivel === 'DANGER' ? 'RISCO DE INSOLVÊNCIA' : 
+                               data.nivel === 'WARNING' ? 'MARGEM DE RISCO' : 'OPERAÇÃO SEGURA';
+
+            document.getElementById('nome-produto').innerText = data.titulo;
+            
+            // Imagem
+            const imgEl = document.getElementById('img-produto');
+            if(data.imagem && data.imagem !== "") {
+                imgEl.src = data.imagem;
+                imgEl.style.display = 'block';
+            } else {
+                imgEl.style.display = 'none';
+            }
+
+            // (Removida a seção de Insights de Taxas daqui)
+
+            document.getElementById('msg-seguranca').innerText = data.msg_seguranca;
+            document.getElementById('val-buybox').innerText = "R$ " + data.preco_buybox.toFixed(2);
+            document.getElementById('val-minimo').innerText = "R$ " + data.seu_preco_minimo.toFixed(2);
+            
+            // Exibição do Lucro Líquido
+            const lucroEl = document.getElementById('val-lucro');
+            lucroEl.innerText = "R$ " + data.lucro_projetado.toFixed(2);
+            
+            // Lógica de cor do lucro
+            if(data.lucro_projetado > 0) {
+                document.getElementById('box-lucro').className = "profit-box profit-positive";
+            } else {
+                document.getElementById('box-lucro').className = "profit-box profit-negative";
+            }
+
+            document.getElementById('texto-acao').innerText = data.acao;
+        }
+    </script>
+</body>
+</html>
